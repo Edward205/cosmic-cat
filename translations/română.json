@@ -1,0 +1,142 @@
+/* jshint esversion: 10 */
+const NAMESPACE_MODULE_CIULINATIONS_EN = "Ciulinations_Română";
+
+window[NAMESPACE_MODULE_CIULINATIONS_EN] = {};
+(function translation() {
+    var language = "ro";
+    var author = "Edward";
+
+    const json = {
+        global: {
+            browse: "Răsfoiți",
+            upload: "Încărcați",
+            help: "Ajutor",
+            about: "Despre",
+            copyright: "Drepturi de autor",
+            advertising: "Publicitate",
+            loading: "Se încarcă...",
+            channel: "Canal",
+            seeall: "vedeți tot",
+            search: "Căutare",
+            browsechannels: "Răsfoiți canale",
+            press: "Presă și bloguri",
+            creators: "Creatori și parteneri",
+        },
+        channels: {
+            about: "Despre %s"
+        },
+        stats: {
+            likesdislikes: "%s apreciază, %r nu apreciază"
+        },
+        buttons: {
+            like: "Apreciez",
+            addto: "Adăugați la",
+            share: "Distribuiți",
+            showmore: "Afișați mai mult",
+            showless: "Afișați mai puțin",
+            subscribe: "Abonare",
+            subscribed: "Abonat",
+            unsubscribe: "Dezabonat",
+            post: "Postare",
+            loadmoresuggestions: "Încărcați mai multe sugestii",
+            signin: "Concetați-vă"
+        },
+        suggestions: {
+            loading: "Se încarcă mai multe sugestii..."
+        },
+        comments: {
+            charactersremain: "%s caractere rămase",
+            secondsremain: "%s secunde până când puteți posta",
+            loading: "Se încarcă comentariul...",
+            allcomments: "Toate comentariile",
+            topcomments: "Comentarii top",
+            respond: "Răspundeți la acest video..."
+        },
+        tooltip: {
+            ilikethis: "Apreciez",
+            idislikethis: "Nu apreciez",
+            addto: "Adăugați la favorite sau la playlist",
+            share: "Distribuiți sau incorporați acest video",
+            flag: "Inadecvat",
+            statistics: "Afișați statisticile videoului",
+            clicktobe: "Faceți clic pentru a fi notificat de noi videoclipuri de pe acest canal",
+            interactive: "Transcriere interactivă"
+        },
+        player: {
+            mute: "Opriți sunetul",
+            unmute: "Porniți sunetul",
+            quality: "Schimbați calitatea",
+            fullscreen: "Ecran complet"
+        },
+        watch: {
+            tags: "Etichete",
+            license: "Licență",
+            uploaderinfo: "Încărcat de %s pe %r",
+            category: "Categorie",
+            from: "De la: %s",
+            uploadedavideo: "%s a încărcat un video",
+            islive: "%s este live",
+            by: "de %s"
+        },    
+        uploadmonth: {
+            jan: "Ian",
+            feb: "Feb",
+            mar: "Mar",
+            apr: "Apr",
+            may: "Mai",
+            jun: "Iun",
+            jul: "Iul",
+            aug: "Aug",
+            sep: "Sep",
+            oct: "Oct",
+            nov: "NoI",
+            dec: "Dec"
+        },
+        about: {
+            country: "Țară:",
+            membersince: "S-a alăturat:",
+            viewedcounts: "Vizionări:",
+            viewedcount: "Vizionare:",
+            sub: "Abonat:",
+            subs: "Abonați:"
+        },
+        customtag: {
+            age: "Vârstă:",
+            occupation: "Ocupație:"
+        },
+        personal: {
+            mychannel: "Canalul meu",
+            videos: "Videouri",
+            likes: "Aprecieri",
+            history: "Istoric",
+            watchlater: "Vizionează mai târziu",
+            videomanager: "Gestionar video",
+            youtubesettings: "Setări YouTube",
+            subscriptions: "Abonamente",
+            profile: "Profil",
+            privacy: "Confidențialitate",
+            settings: "Setări",
+            signout: "Deconectați-vă",
+            switchaccount: "Comutați contul",
+            googleaccount: "Cont Google"
+        },
+        browse: {
+            mostviewed: "Cele mai vizionate astări",
+            recommended: "Recomandate pentru dvs."
+        },
+        guide: {
+            fromyt: "De la YouTube",
+            trending: "Tendințe",
+            popular: "Populare",
+            music: "Muzică",
+            live: "Live",
+            gaming: "Jocuri",
+            news: "Știri",
+            sports: "Sporturi",
+            education: "Educație",
+            howto: "Howto & Stil"
+        }
+    };
+    
+    Ciulinations.addTranslation(language, json, author);
+})(NAMESPACE_MODULE_CIULINATIONS_EN);
